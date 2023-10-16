@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 10px 5px 5px #DC88E1;
+  float: left;
+  width: 80%;
+  background: #FAEBFD;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #D956E0;
+  box-shadow: 10px 5px 5px #DC88E1;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

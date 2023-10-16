@@ -1,0 +1,27 @@
+.notes{
+    margin-bottom: 15px;
+    padding: 4px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  
+  .primary {
+    background-color: #F3DBF4;
+    border-left: 15px solid #dc88e1;;
+  }
+  
+  .green {
+    background-color: #87CED0;
+    border-left: 15px solid #4bc8cd;
+  }
+  
+  .yellow {
+    background-color: #F9DD99;
+    border-left: 15px solid #ffd876;
+  }
+  
+  
+  .red {
+    background-color: #CA3850;
+    border-left: 15px solid #af3448;
+  }

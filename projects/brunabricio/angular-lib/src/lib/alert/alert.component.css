@@ -1,0 +1,73 @@
+#primary {
+    padding: 20px;
+    background-color: #D956E0;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#primary:hover {
+    background-color: #C442CB;;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 25px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+#secondary {
+    padding: 20px;
+    background-color: #dc88e1;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#secondary:hover {
+    background-color: #c568ca;;
+}
+
+#danger {
+    padding: 20px;
+    background-color: #b04a5b;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#danger:hover {
+    background-color: #af3448;
+}
+  
+
+#sucess {
+    padding: 20px;
+    background-color: #87CED0;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#sucess:hover {
+    background-color: #4bc8cd;
+}
+
+#info {
+    padding: 20px;
+    background-color: #F9DD99;
+    color: white;
+    border-radius: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#info:hover {
+    background-color: #ffd876;
+}
+
+  

@@ -1,0 +1,24 @@
+     <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img class="slide__img" src="https://cdn.pixabay.com/photo/2022/03/31/08/47/moon-7102510_1280.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="slide__img" src="https://cdn.pixabay.com/photo/2018/09/06/10/16/landscape-3657945_1280.jpg">
+        </div>
+
+        <div class="mySlides fade">
+          <img class="slide__img" src="https://img.freepik.com/fotos-premium/ceu-rosa-com-nuvens-fofas-fundo-abstrato-estilo-artistico_743855-15888.jpg?w=1800" style="width:100%">
+        </div>
+        
+        <a class="prev" (click)="plusSlides(-1)">❮</a>
+        <a class="next" (click)="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div style="text-align:center">
+          <span class="dot" (click)="currentSlide(1)"></span> 
+          <span class="dot" (click)="currentSlide(2)"></span> 
+          <span class="dot" (click)="currentSlide(3)"></span> 
+        </div>

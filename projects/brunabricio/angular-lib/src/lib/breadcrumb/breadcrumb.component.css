@@ -1,0 +1,32 @@
+.breadcrumb {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fbdffc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #D956E0;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #D956E0;
+    text-decoration: none;
+  }

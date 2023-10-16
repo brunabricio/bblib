@@ -1,0 +1,149 @@
+/*========== PRIMARY BUTTON ==========*/
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bb__button__primary{
+    display: inline;
+    background-color: #D956E0;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+  }
+
+.bb__button__primary:hover {
+    background-color: #C442CB;
+}
+/*========== SECONDARY BUTTON ==========*/
+.bb__button__secondary{
+    display: inline;
+    background-color: #dc88e1;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+.bb__button__secondary:hover {
+    background-color: #c568ca;
+}
+
+/*========== GREEN BUTTON ==========*/
+.bb__button__green{
+    display: inline;
+    background-color: #87CED0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+.bb__button__green:hover {
+    background-color: #4bc8cd;
+}
+
+/*========== YELLOW BUTTON ==========*/
+.bb__button__yellow{
+    display: inline;
+    background-color: #F9DD99;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+.bb__button__yellow:hover {
+    background-color: #ffd876;
+}
+
+/*========== SECONDARY RED ==========*/
+.bb__button__red{
+    display: inline;
+    background-color: #CA3850;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+.bb__button__red:hover {
+    background-color: #af3448;
+}
+
+/*========== OUTLINE BUTTON ==========*/
+
+.bb__button__outline-primary {
+    background-color: white;
+    color: black;
+    border: 2px solid #D956E0;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bb__button__outline-primary:hover {
+    background-color: #D956E0;
+    color: white;
+}
+
+.bb__button__outline-secondary {
+    background-color: white;
+    color: black;
+    border: 2px solid #dc88e1;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bb__button__outline-secondary:hover {
+    background-color: #dc88e1;
+    color: white;
+}
+
+.bb__button__outline-green {
+    background-color: white;
+    color: black;
+    border: 2px solid #87CED0;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bb__button__outline-green:hover {
+    background-color: #4bc8cd;
+    color: white;
+}
+
+.bb__button__outline-red {
+    background-color: white;
+    color: black;
+    border: 2px solid #CA3850;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bb__button__outline-red:hover {
+    background-color: #af3448;
+    color: white;
+}
+
+.bb__button__outline-yellow {
+    background-color: white;
+    color: black;
+    border: 2px solid #F9DD99;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.bb__button__outline-yellow:hover {
+    background-color: #ffd876;
+    color: white;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
