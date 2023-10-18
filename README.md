@@ -1,6 +1,6 @@
 # BBLib
 
-A biblioteca de componentes Angular BBLib tem como objetivo oferecer uma coleção completa de componentes reutilizáveis para enriquecer aplicações Angular. Afim de disponibilizar uma variedade de componentes prontos para uso,  acelerar o desenvolvimento, melhorar a consistência visual e aprimorar a experiência do usuário.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2. The Angular BBLib component library aims to offer a complete collection of reusable components to enrich Angular applications. To provide a variety of ready-to-use components, accelerate development, improve visual consistency and enhance the user experience.
 
 ## Development server
 
@@ -26,5 +26,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
-# bb-lib
