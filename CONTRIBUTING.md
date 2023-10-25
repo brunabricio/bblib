@@ -26,3 +26,6 @@ Thank you for considering contributing to the [Your Repository Name] project! We
    ```bash
    git add .
    git commit -m "Added/Fixed/Updated [brief description of changes]"
+
+# License
+By contributing, you agree that your contributions will be licensed under its MIT License.
