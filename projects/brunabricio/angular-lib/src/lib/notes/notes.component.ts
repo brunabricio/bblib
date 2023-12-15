@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-notes',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./notes.component.css']
 })
 export class NotesComponent {
-
+  @Input('color') value: 'primary' | 'green' | 'yellow' | 'red' = 'primary';
 }

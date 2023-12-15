@@ -15,12 +15,8 @@ export class AccordionComponent implements OnInit {
       acc[i].addEventListener("click", function(this: HTMLElement) {
         this.classList.toggle("active");
         const panel = this.nextElementSibling as HTMLElement;
-        
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
+        panel.classList.toggle("hidden");
+        panel.classList.toggle("visible");
       });
     }
   }

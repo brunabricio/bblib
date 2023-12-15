@@ -10,6 +10,7 @@ import { NotesComponent } from './notes/notes.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { SearchComponent } from './search/search.component';
 import { TableComponent } from './table/table.component';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -28,6 +29,7 @@ import { TableComponent } from './table/table.component';
     TableComponent
   ],
   imports: [
+    BrowserModule
   ],
   exports: [
     ButtonComponent,
